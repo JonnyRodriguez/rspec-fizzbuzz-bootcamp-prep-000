@@ -8,7 +8,8 @@ def fizzbuzz(number)
   if number%5 == 0 
     result+="Buzz"
   end
-  if result!=""
+  if result==""
+    result=NIL
     return result
   else
     return NIL
