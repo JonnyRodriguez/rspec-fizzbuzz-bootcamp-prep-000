@@ -10,8 +10,6 @@ def fizzbuzz(number)
   end
   if result==""
     result=NIL
-    return result
-  else
-    return NIL
   end
+  return result
 end
